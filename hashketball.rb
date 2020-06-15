@@ -143,5 +143,10 @@ def num_points_scored(name)
       temp_player = player[:points]
     end
   end
+  temp_hash[:away][:players].each do |player|
+    if player[:player_name] == name
+      temp_player = player[:points]
+    end
+  end
   binding.pry
 end

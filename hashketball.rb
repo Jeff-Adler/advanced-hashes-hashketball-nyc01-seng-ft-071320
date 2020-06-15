@@ -175,5 +175,17 @@ end
 def team_colors(team)
   temp_hash = game_hash
   temp_colors = []
-   
+  if temp_hash[:home][:team_name] == team
+    temp_colors = temp_hash[:home][:colors]
+  # temp_hash[:home][:players].each do |player|
+  #   if player[:player_name] == name
+  #     temp_shoe = player[:shoe]
+  #   end
+  # end
+  # temp_hash[:away][:players].each do |player|
+  #   if player[:player_name] == name
+  #     temp_shoe = player[:shoe]
+  #   end
+  # end
+  temp_colors
 end

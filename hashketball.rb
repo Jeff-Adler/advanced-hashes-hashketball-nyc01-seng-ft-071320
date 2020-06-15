@@ -201,5 +201,9 @@ def team_names
 end
 
 def player_numbers(team)
-  
+  temp_numbers = []
+  if game_hash[:home][:team_name] == team
+    game_hash[:home][:players].each do |player|
+      temp_numbers << player[:number]
+    end
 end

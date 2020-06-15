@@ -143,4 +143,5 @@ def num_points_scored(name)
       temp_player = player[:points]
     end
   end
+  binding.pry
 end

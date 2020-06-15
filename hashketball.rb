@@ -131,5 +131,5 @@ end
 # Write code here
 
 def num_points_scored(player_name)
-  game_hash = game_hash
+  temp_hash = game_hash
 end

@@ -130,9 +130,16 @@ end
 
 # Write code here
 
-def num_points_scored(player_name)
+def num_points_scored(name)
   temp_hash = game_hash
-  temp_hash.each do |home_away,info|
-
+  # temp_hash.each do |home_away,info|
+  #     info.each do |data_item,specfication|
+  #
+  #     end
+  # end
+  temp_hash[:home][:players].each do |player|
+    if player[:player_name] == name
+      player[:points]
+    end
   end
 end

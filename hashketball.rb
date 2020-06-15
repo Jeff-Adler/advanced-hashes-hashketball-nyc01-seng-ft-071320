@@ -132,4 +132,7 @@ end
 
 def num_points_scored(player_name)
   temp_hash = game_hash
+  temp_hash.each do |home_away,info|
+
+  end
 end

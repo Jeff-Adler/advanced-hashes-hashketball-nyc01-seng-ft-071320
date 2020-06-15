@@ -169,5 +169,5 @@ def shoe_size(name)
       temp_shoe = player[:shoe]
     end
   end
-  temp_player
+  temp_shoe
 end

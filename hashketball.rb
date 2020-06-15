@@ -211,4 +211,5 @@ def player_numbers(team)
       temp_numbers << player[:number]
     end
   end
+  temp_numbers
 end

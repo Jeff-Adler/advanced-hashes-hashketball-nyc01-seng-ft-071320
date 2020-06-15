@@ -171,3 +171,8 @@ def shoe_size(name)
   end
   temp_shoe
 end
+
+def team_colors(team)
+  temp_hash = game_hash
+  temp_colors = [] 
+end

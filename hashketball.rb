@@ -213,3 +213,6 @@ def player_numbers(team)
   end
   temp_numbers
 end
+
+def player_stats(name)
+end

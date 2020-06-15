@@ -139,7 +139,7 @@ def num_points_scored(name)
   # end
   temp_hash[:home][:players].each do |player|
     if player[:player_name] == name
-      player[:points]
+      return player[:points]
     end
   end
 end

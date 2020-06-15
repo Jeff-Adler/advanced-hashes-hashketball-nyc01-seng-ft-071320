@@ -132,6 +132,7 @@ end
 
 def num_points_scored(name)
   temp_hash = game_hash
+  binding.pry 
   # temp_hash.each do |home_away,info|
   #     info.each do |data_item,specfication|
   #

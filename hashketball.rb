@@ -150,3 +150,24 @@ def num_points_scored(name)
   end
   temp_player
 end
+
+def shoe_size(name)
+  temp_hash = game_hash
+  # temp_hash.each do |home_away,info|
+  #     info.each do |data_item,specfication|
+  #
+  #     end
+  # end
+  temp_shoe = ""
+  temp_hash[:home][:players].each do |player|
+    if player[:player_name] == name
+      temp_shoe = player[:shoe]
+    end
+  end
+  temp_hash[:away][:players].each do |player|
+    if player[:player_name] == name
+      temp_shoe = player[:shoe]
+    end
+  end
+  temp_player
+end

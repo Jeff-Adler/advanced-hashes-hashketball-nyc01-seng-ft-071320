@@ -206,4 +206,9 @@ def player_numbers(team)
     game_hash[:home][:players].each do |player|
       temp_numbers << player[:number]
     end
+  elsif game_hash[:away][:team_name] == team
+    game_hash[:away][:players].each do |player|
+      temp_numbers << player[:number]
+    end
+  end
 end

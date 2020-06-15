@@ -132,15 +132,15 @@ end
 
 def num_points_scored(name)
   temp_hash = game_hash
-  binding.pry 
   # temp_hash.each do |home_away,info|
   #     info.each do |data_item,specfication|
   #
   #     end
   # end
+  temp_player = ""
   temp_hash[:home][:players].each do |player|
     if player[:player_name] == name
-      return player[:points]
+      temp_player player[:points]
     end
   end
 end

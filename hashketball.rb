@@ -174,5 +174,6 @@ end
 
 def team_colors(team)
   temp_hash = game_hash
-  temp_colors = [] 
+  temp_colors = []
+   
 end
